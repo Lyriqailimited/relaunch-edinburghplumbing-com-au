@@ -1,0 +1,13 @@
+
+/* Relaunch AI - Image Overlay Contract */
+.img-overlay-wrap {
+  display: inline-block;
+  position: relative;
+}
+.img-overlay-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  pointer-events: none;
+}
